@@ -124,8 +124,8 @@ New-Item -Path $nvidiaTempFolder -ItemType Directory 2>&1 | Out-Null
 
 
 # Generating the download link
-$url = "https://international.download.nvidia.com/Windows/$version/$version-desktop-$windowsVersion-$windowsArchitecture-international-whql.exe"
-$rp_url = "https://international.download.nvidia.com/Windows/$version/$version-desktop-$windowsVersion-$windowsArchitecture-international-whql-rp.exe"
+$url = "http://us.download.nvidia.com/tesla/451.82/451.82-tesla-desktop-winserver-2019-2016-international.exe"
+$rp_url = "http://us.download.nvidia.com/tesla/451.82/451.82-tesla-desktop-winserver-2019-2016-international.exe"
 
 
 # Downloading the installer
